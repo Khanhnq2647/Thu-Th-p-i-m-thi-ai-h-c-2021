@@ -12,7 +12,7 @@ headers = {
     }
         
 file = open("raw_data2021.txt", mode = "a+", encoding ="utf8")
-jsonFile = open("data.json",mode = "w", encoding ="utf8")
+
 for sbd in range(start,end+1):
     url_page = url +"0"+ str(sbd)+ ".json"
     
