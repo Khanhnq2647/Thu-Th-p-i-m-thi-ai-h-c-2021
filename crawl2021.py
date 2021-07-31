@@ -1,7 +1,5 @@
 url = "https://d3ewbr0j99hudd.cloudfront.net/search-exam-result/2021/result/"
 from bs4 import BeautifulSoup
-import re
-import csv
 import json
 import requests
 start = 1100693
