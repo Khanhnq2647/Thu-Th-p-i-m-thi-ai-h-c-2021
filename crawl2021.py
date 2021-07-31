@@ -2,9 +2,6 @@ url = "https://d3ewbr0j99hudd.cloudfront.net/search-exam-result/2021/result/"
 from bs4 import BeautifulSoup
 import json
 import requests
-start = 1100693
-end = 1100700
-
 headers = {
           'User-Agent': 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.16; rv:86.0) Gecko/20100101 Firefox/86.0',
           'cookie': 'G_ENABLED_IDPS=google; fpsend=149436; __zi=3000.SSZzejyD3CiaW_sbrKeErsE1gRkRH1QKFvEZf8a6188lrRBZnmC5ncNTjkp33K_1Ojp-xCSEJyPatFlg.1',
